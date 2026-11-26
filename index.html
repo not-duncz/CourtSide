@@ -3,34 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COURTSIDE 🏀</title>
+    <title>COURTSIDE 🏀 | Basketball Rules, Positions & Players</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- HEADER / NAVBAR - based on your code, cleaned up -->
     <header class="Head">
         <div class="header">
             <h1 class="logo">COURTSIDE 🏀</h1>
             <nav class="nav-links">
                 <a class="Menu active" href="#">Home</a>
+                <a class="Menu" href="#rules">Rules</a>
+                <a class="Menu" href="#positions">Positions</a>
                 <a class="Menu" href="#players">Players</a>
-                <a class="Menu" href="#scores">Scores</a>
-                <a class="Menu" href="#about">About</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <!-- HERO SECTION -->
         <section class="hero">
             <div class="hero-text">
-                <h1>PLAY ON</h1>
-                <h1>LIKE NO</h1>
-                <h1 class="highlight">OTHER</h1>
-                <p>Your home for basketball news, players, scores and streetball culture.</p>
+                <h1>PLAY LIKE</h1>
+                <h1>NO <span class="highlight">OTHER</span></h1>
+                <p>Your home for basketball — learn the rules, master the positions, and meet the legends who changed the game.</p>
                 <div class="hero-buttons">
-                    <a href="#players" class="btn btn-orange">Meet Players</a>
-                    <a href="#scores" class="btn btn-outline">Latest Scores</a>
+                    <a href="#rules" class="btn btn-orange">Learn The Rules</a>
+                    <a href="#players" class="btn btn-outline">Meet The Legends</a>
                 </div>
             </div>
             <div class="hero-ball">
@@ -40,80 +37,171 @@
 
         <!-- STATS BAR -->
         <section class="stats-bar">
-            <div class="stat"><h3>30</h3><p>Teams</p></div>
+            <div class="stat"><h3>30</h3><p>NBA Teams</p></div>
             <div class="stat"><h3>450+</h3><p>Players</p></div>
-            <div class="stat"><h3>82</h3><p>Games / Season</p></div>
-            <div class="stat"><h3>24M</h3><p>Fans Worldwide</p></div>
+            <div class="stat"><h3>10 ft</h3><p>Hoop Height</p></div>
+            <div class="stat"><h3>24 sec</h3><p>Shot Clock</p></div>
+        </section>
+
+        <!-- RULES SECTION -->
+        <section id="rules" class="section">
+            <h2 class="section-title">BASKETBALL RULES</h2>
+            <p class="section-sub">The basics every fan and player should know</p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-emoji">⏱️</div>
+                    <h3>Game Format</h3>
+                    <p class="position">How It’s Played</p>
+                    <p>5 players per team. NBA: 4 quarters of 12 minutes. FIBA / High School: 4 quarters of 10 / 8 minutes. Team with most points wins. Overtime if tied.</p>
+                </div>
+                <div class="card">
+                    <div class="card-emoji">🎯</div>
+                    <h3>Scoring</h3>
+                    <p class="position">2 • 3 • 1 Points</p>
+                    <p>2 points for a shot inside the arc, 3 points outside the arc, 1 point for each free throw. A slam dunk counts as 2 points.</p>
+                </div>
+                <div class="card">
+                    <div class="card-emoji">🏃</div>
+                    <h3>Dribbling & Movement</h3>
+                    <p class="position">Keep The Ball Moving</p>
+                    <p>You must dribble to move. No travelling (taking steps without dribbling), no double-dribble, no carrying the ball.</p>
+                </div>
+                <div class="card">
+                    <div class="card-emoji">🕐</div>
+                    <h3>Shot Clock & Time</h3>
+                    <p class="position">Play Fast</p>
+                    <p>24-second shot clock in NBA/FIBA to attempt a shot. 8 seconds to bring the ball past half-court. 3 seconds max in the paint on offense.</p>
+                </div>
+                <div class="card">
+                    <div class="card-emoji">🚫</div>
+                    <h3>Fouls</h3>
+                    <p class="position">Play Clean</p>
+                    <p>Personal fouls: illegal contact like pushing, holding, blocking. 6 fouls = foul out in NBA, 5 in FIBA. Team fouls lead to free throws.</p>
+                </div>
+                <div class="card">
+                    <div class="card-emoji">⚖️</div>
+                    <h3>Violations</h3>
+                    <p class="position">Turnover Rules</p>
+                    <p>Out-of-bounds, goaltending, backcourt violation, shot-clock violation, and kicking the ball all give possession to the other team.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- POSITIONS SECTION -->
+        <section id="positions" class="section dark">
+            <div class="inner">
+                <h2 class="section-title">POSITIONS ON COURT</h2>
+                <p class="section-sub">5 roles, one team</p>
+
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-emoji">🧠</div>
+                        <h3>1. Point Guard</h3>
+                        <p class="position">The Playmaker</p>
+                        <p>Team leader. Best ball-handler and passer. Calls plays and sets up teammates. Example: Magic Johnson, Stephen Curry.</p>
+                        <span class="tag">Skills: Passing | Speed | IQ</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-emoji">🔥</div>
+                        <h3>2. Shooting Guard</h3>
+                        <p class="position">The Scorer</p>
+                        <p>Best shooter on the team. Scores from mid-range and 3-point line. Good defender on the perimeter. Example: Michael Jordan, Kobe Bryant.</p>
+                        <span class="tag">Skills: Shooting | Defense</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-emoji">🦅</div>
+                        <h3>3. Small Forward</h3>
+                        <p class="position">The All-Rounder</p>
+                        <p>Most versatile player. Scores, defends, rebounds. Can play inside and outside. Example: LeBron James, Kevin Durant.</p>
+                        <span class="tag">Skills: Versatility | Athleticism</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-emoji">🛡️</div>
+                        <h3>4. Power Forward</h3>
+                        <p class="position">The Enforcer</p>
+                        <p>Strong inside scorer and rebounder. Screens, blocks shots, fights in the paint. Example: Tim Duncan, Giannis Antetokounmpo.</p>
+                        <span class="tag">Skills: Rebounds | Strength</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-emoji">💪</div>
+                        <h3>5. Center</h3>
+                        <p class="position">The Wall</p>
+                        <p>Tallest player. Protects the rim, grabs rebounds, dunks and blocks. Anchors the defense. Example: Shaquille O’Neal, Nikola Jokić.</p>
+                        <span class="tag">Skills: Blocks | Post Play</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- PLAYERS SECTION -->
         <section id="players" class="section">
-            <h2 class="section-title">FEATURED PLAYERS</h2>
-            <p class="section-sub">Legends on the court right now</p>
+            <h2 class="section-title">LEGENDS OF THE GAME</h2>
+            <p class="section-sub">Players who defined basketball</p>
 
             <div class="cards">
-                <div class="card">
-                    <div class="card-emoji">🏀</div>
-                    <h3>Point Guard</h3>
-                    <p class="position">The Playmaker</p>
-                    <p>Fast handles, sharp passes, and clutch 3-pointers. Runs the whole offense.</p>
-                    <span class="tag">PPG 24.5 | AST 9.2</span>
+                <div class="card player">
+                    <div class="card-emoji">🐐</div>
+                    <h3>Michael Jordan</h3>
+                    <p class="position">Shooting Guard • Bulls</p>
+                    <p>6× NBA Champion, 5× MVP. Widely called the Greatest of All Time. Famous for clutch shots and perfect Finals record 6-0.</p>
+                    <span class="tag">PPG 30.1 | 6 Rings</span>
                 </div>
-                <div class="card">
-                    <div class="card-emoji">🔥</div>
-                    <h3>Shooting Guard</h3>
-                    <p class="position">The Scorer</p>
-                    <p>Lights out from downtown. Never afraid to take the big shot.</p>
-                    <span class="tag">PPG 28.1 | 3P% 41%</span>
+                <div class="card player">
+                    <div class="card-emoji">👑</div>
+                    <h3>LeBron James</h3>
+                    <p class="position">Small Forward • Lakers</p>
+                    <p>NBA all-time leading scorer. 4× Champion with 3 teams. Elite passer, scorer and leader with 20+ seasons of dominance.</p>
+                    <span class="tag">PPG 27+ | 4 Rings</span>
                 </div>
-                <div class="card">
-                    <div class="card-emoji">💪</div>
-                    <h3>Center</h3>
-                    <p class="position">The Wall</p>
-                    <p>Dominates the paint with dunks, blocks and monster rebounds.</p>
-                    <span class="tag">PPG 21.3 | REB 12.4</span>
+                <div class="card player">
+                    <div class="card-emoji">🎯</div>
+                    <h3>Stephen Curry</h3>
+                    <p class="position">Point Guard • Warriors</p>
+                    <p>Changed basketball forever with 3-point shooting. 4× Champion, all-time leader in 3-pointers made. Best shooter ever.</p>
+                    <span class="tag">3PM #1 All-Time</span>
+                </div>
+                <div class="card player">
+                    <div class="card-emoji">🐍</div>
+                    <h3>Kobe Bryant</h3>
+                    <p class="position">Shooting Guard • Lakers</p>
+                    <p>5× Champion, 81-point game legend. Known for Mamba Mentality — relentless work ethic and killer instinct.</p>
+                    <span class="tag">PPG 25.0 | 5 Rings</span>
+                </div>
+                <div class="card player">
+                    <div class="card-emoji">🦍</div>
+                    <h3>Shaquille O’Neal</h3>
+                    <p class="position">Center • Lakers / Magic</p>
+                    <p>Most dominant center ever. 4× Champion, unstoppable in the paint with power dunks and huge presence.</p>
+                    <span class="tag">PPG 23.7 | 4 Rings</span>
+                </div>
+                <div class="card player">
+                    <div class="card-emoji">🃏</div>
+                    <h3>Nikola Jokić</h3>
+                    <p class="position">Center • Nuggets</p>
+                    <p>3× MVP, 2023 Champion. Best passing big man in history. Proves centers can run the offense like point guards.</p>
+                    <span class="tag">MVP ×3 | Champ ’23</span>
                 </div>
             </div>
         </section>
 
-        <!-- SCORES SECTION -->
-        <section id="scores" class="section dark">
-            <h2 class="section-title">LATEST SCORES</h2>
-            <p class="section-sub">This week on Courtside</p>
-
-            <div class="scores">
-                <div class="score-box">
-                    <p><strong>Lakers</strong> 112 - 108 <strong>Celtics</strong></p>
-                    <small>Final • Thriller in LA</small>
-                </div>
-                <div class="score-box">
-                    <p><strong>Bulls</strong> 98 - 104 <strong>Warriors</strong></p>
-                    <small>Final • Curry goes for 35</small>
-                </div>
-                <div class="score-box">
-                    <p><strong>Knicks</strong> 121 - 119 <strong>Nets</strong></p>
-                    <small>OT • NYC Derby</small>
-                </div>
-            </div>
-        </section>
-
-        <!-- ABOUT / JOIN -->
-        <section id="about" class="section about">
+        <!-- ABOUT BASKETBALL -->
+        <section class="section about">
             <div class="about-box">
-                <h2>JOIN THE COURTSIDE CLUB</h2>
-                <p>Get training tips, game highlights and streetball stories every week.</p>
-                <form class="join-form" onsubmit="return false;">
-                    <input type="text" placeholder="Your name" required>
-                    <input type="email" placeholder="Your email" required>
-                    <button type="submit">Join Now</button>
-                </form>
+                <h2>WHY BASKETBALL?</h2>
+                <p>Invented in 1891 by James Naismith, basketball is now played by over 300 million people worldwide. It’s fast, team-based, and needs only a ball and a hoop — from NBA arenas to street courts.</p>
+                <div class="about-facts">
+                    <div><strong>1891</strong><span>Invented</span></div>
+                    <div><strong>10 ft</strong><span>Rim Height</span></div>
+                    <div><strong>5v5</strong><span>On Court</span></div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <p>COURTSIDE 🏀 | Made for basketball lovers</p>
-        <p class="small">Home • Players • Scores • About</p>
+        <p class="small">Home • Rules • Positions • Players</p>
     </footer>
-<script>window.__CF$cv$params={r:'a5fbd72edd337939',t:'MTc5NTU1OTI0Mg==',u:'01a20fabbf74735d89b4127a805bd223',ut:'1S7dqqkMuzPZp59yQ7Thjs9EbGhmLpd8KfSCJKN2l7c-1795559243-1.2.1.1-Xke5dMgzRG2n1jkeOFr5i5.6FXIvEJj2xsKrCR2vP6hcvHmPekXMVyaQwxuLKolEfr8pcPcStEBag3UTIZLQkH1GdmuYrXDj9otmGAB8A7c',i:60};(function(){if(!document.body)return;var l=window.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/precursor/main.js?ray=a5fbd72edd337939',s=document.createElement('script');s.src=o?new URL(u,o).href:u;document.head.appendChild(s);})();</script></body>
+<script>window.__CF$cv$params={r:'a606d0af6e3e37c9',t:'MTc5NTY3NDMxOQ==',u:'01a21687ab0573489a2c20e9c39d388c',ut:'38YztZODZCjrT7wPbYm2v55OU_4D2O8ep.nj30o6Yz4-1795674319-1.2.1.1-sIk_5OXY03.YdeiiJ75hPlEvHAY8zJHKuYBLpXXSMdRzmrREyc.burNwXz_az0xFYo5nxZxj1qr_h3U6PjY8Rms7WET7nTQ9mrbV6Ia6lHw',i:60};(function(){if(!document.body)return;var l=window.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/precursor/main.js?ray=a606d0af6e3e37c9',s=document.createElement('script');s.src=o?new URL(u,o).href:u;document.head.appendChild(s);})();</script></body>
 </html>
